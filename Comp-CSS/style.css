@@ -1,0 +1,144 @@
+#clock {
+    height: 8px;
+    width: -8px;
+    margin: left;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    font-family: courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+.header{
+  background: #6F8AB7;
+  height: 50px;
+  color: #ffffff;
+  width: 14300px ;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+body {background-color:#CAE5FF;}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+margin:0px;
+background-size: 100px;
+}
+
+.border {
+width:1300px;
+height: 1075px ;
+margin-left:auto;
+margin-right:auto;
+border:5px solid #ffffff;
+margin-top:15px;
+margin-bottom:20px;
+}
+
+.title {
+color:#ffffff;
+float:left;
+font-size:x-large;
+}
+
+.navigation 
+{
+float: right;
+}
+a:link {color: #89BBFE;}
+a:visited {color:#89BBFE ;}
+a:hover {color: #615D6C;}
+a:active {color: #89BBFE;}
+a:link, a:visited {
+background-color:white;
+color: #89BBFE;
+border: 2px solid #615D6C;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+a:hover, a:active {background-color: #6F8AB7;color: white;}
+
+
+
+
+.navigation_
+{
+float: left;
+}
+a:link {color: #89BBFE;}
+a:visited {color:#89BBFE ;}
+a:hover {color: #615D6C;}
+a:active {color: #89BBFE;}
+a:link, a:visited {
+background-color:white;
+color: #89BBFE;
+border: 2px solid #615D6C;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+a:hover, a:active {background-color: #6F8AB7;color: white;}
+
+h1.white {
+color:#ffffff;
+}
+
+ .whiteTitleBar {
+background-color:#89BBFE;
+height:35px;
+padding:15px;
+ color: #ffffff;
+}
+
+ .Bar {
+background-color:#615D6C;
+height:900px;
+padding:50px;
+font-size:xx-large;
+color: #ffffff;
+}
+.white{
+ background-color: white
+}
+
+ .whiteblue {
+background-color:#CAE5FF;
+}
+
+.lightteal {
+background-color: #ACEDFF;
+}
+ 
+ .frenchblue {
+background-color:#89BBFE;
+}
+
+ .lightGray {
+background-color: #6F8AB7;
+}
+
+
+ .darkGray {
+background-color: #615D6C;
+}
+
+ .blackBorder {
+border:5px solid #ffffff;
+}
+
+ .blackHorizontalLine {
+border-bottom:5px solid #ffffff;
+}
+.home {
+border-bottom:5px solid #ffffff;
+}

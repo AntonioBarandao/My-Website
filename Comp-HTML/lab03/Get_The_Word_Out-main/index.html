@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Request For help</title>
+</head>
+<body>
+    <form id="dataForm">
+         
+          <label for="email">Email:</label>
+          <input type="email" id ="email" name="email" required><br>
+          <label for="password">Password</label>
+          <input type="text" id ="password" name="password" required><br>
+          <button id="button" type="submit">Submit</button>
+    </form>
+
+    <script>
+     document.getElementById('dataForm').addEventListener('submit', async (event) =>{
+        event.preventDefault();
+
+        const formData = new FormData(event.target);
+        const data ={}
+        formData.forEach((value, key) => data[key] = value);
+
+        try {
+            const response = await fetch('/signin', {
+                method: 'POST',
+                body:data})
+                .then(res => res.text())
+                .then(txt => alert(txt))
+                .catch(err => console.error(err));
+                return false;
+            
+            if (response.ok) {
+                console.log('signed in successfully!');
+            } else {
+                console.error('error signing in')
+            }
+        } catch (error) {
+            console.error('error:' , error);
+        }
+    })
+  </script>
+  </body>
+</html>

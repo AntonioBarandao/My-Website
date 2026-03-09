@@ -1,0 +1,61 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Form styling */
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Input spacing */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    box-sizing: border-box;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Submit button */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+/* Header styling */
+th {
+    background-color: lightgray;
+}
+
+/* Table borders */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}

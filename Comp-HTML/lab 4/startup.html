@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css" />
+   
+    <title>Lab Assignment: Forms and Tables</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        console.log("JS test")
+    </script> 
+    <h1>Student Registration Form</h1>
+
+   <!-- HTML Form -->
+    <form>
+       <label for="FullName">Full Name:</label>
+       <input type="text" id ="FullName" name="FullName" required><br>
+
+       <label for="email">Email:</label>
+       <input type="email" id ="email" name="email" required><br>
+
+       <label for="Password">Password:</label>
+       <input type="password" id ="Password" name="Password" required><br>
+
+       <label for="Gender">Gender:</label><br>
+       <input type="radio" id="male" name="gender" value="male">
+       <label for="male">Male</label><br>
+       <input type="radio" id="female" name="gender" value="female">
+       <label for="female">Female</label><br>
+       <input type="radio" id="other" name="gender" value="other">
+       <label for="other">Other</label><br>
+
+       <label for="DateOfBirth">Date of Birth:</label>
+       <input type="date" id ="DateOfBirth" name="DateOfBirth" required><br>
+
+       <button id="button" type="submit">Submit</button>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- HTML Table -->
+    <h2>Student Data</h2>
+   <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Date of Birth</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+</table>
+<script src="index.js"></script>
+</body>
+</html>

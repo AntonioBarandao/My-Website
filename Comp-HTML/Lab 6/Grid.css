@@ -1,0 +1,52 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobile default */
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: #3498db;
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.grid-item:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+/* Tablet View */
+@media (min-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop View */
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

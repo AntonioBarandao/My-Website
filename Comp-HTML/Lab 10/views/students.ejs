@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+
+<h1>List of Students</h1>
+
+<ul>
+    <% students.forEach(function(student) { %>
+        <li>
+            <strong><%= student.name %></strong> - <%= student.major %>
+        </li>
+    <% }); %>
+</ul>
+
+</body>
+</html>
